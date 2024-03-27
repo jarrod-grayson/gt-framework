@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Guidewire Test Suite" tests="3" failures="1" time="10.05">
+    <testcase classname="LoginTest" name="Login Test" time="5.02">
+      <failure message="Login button not found">
+        <![CDATA[
+        AssertionError: Login button not found
+          at path/to/your/test/script.js:25
+          at path/to/your/test/script.js:45
+        ]]>
+      </failure>
+    </testcase>
+    <testcase classname="AutoLoanApplicationTest" name="Auto Loan Application Test" time="5.03">
+      <skipped message="Skipped due to test environment issues"/>
+    </testcase>
+  </testsuite>
+</testsuites>
