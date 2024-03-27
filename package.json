@@ -1,0 +1,5 @@
+"scripts": {
+  "test:login": "karate features/login.feature",
+  "test:auto-loan": "karate features/auto_loan_application.feature",
+  "test": "npm run test:login && npm run test:auto-loan"
+}
